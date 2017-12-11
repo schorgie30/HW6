@@ -1,0 +1,548 @@
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_101\jre
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Oct-2017 14:02:36.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\logging.properties
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\colbert\Documents\apache-tomcat-8.5.23\temp
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10-Oct-2017 14:02:36.595 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Oct-2017 14:02:37.064 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10-Oct-2017 14:02:37.158 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 14:02:37.236 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 14:02:37.236 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 14:02:37.236 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 14:02:37.236 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 895 ms
+10-Oct-2017 14:02:37.267 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Oct-2017 14:02:37.267 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Oct-2017 14:02:37.267 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs]
+10-Oct-2017 14:02:37.486 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs] has finished in [203] ms
+10-Oct-2017 14:02:37.486 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples]
+10-Oct-2017 14:02:38.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples] has finished in [625] ms
+10-Oct-2017 14:02:38.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager]
+10-Oct-2017 14:02:38.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager] has finished in [16] ms
+10-Oct-2017 14:02:38.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager]
+10-Oct-2017 14:02:38.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager] has finished in [46] ms
+10-Oct-2017 14:02:38.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT]
+10-Oct-2017 14:02:38.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT] has finished in [16] ms
+10-Oct-2017 14:02:38.189 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 14:02:38.189 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 14:02:38.189 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 950 ms
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_101\jre
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\logging.properties
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\colbert\Documents\apache-tomcat-8.5.23\temp
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10-Oct-2017 14:08:52.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Oct-2017 14:08:53.351 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10-Oct-2017 14:08:53.476 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 14:08:53.539 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 14:08:53.539 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 14:08:53.539 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 14:08:53.539 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 898 ms
+10-Oct-2017 14:08:53.570 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Oct-2017 14:08:53.570 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Oct-2017 14:08:53.570 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs]
+10-Oct-2017 14:08:53.789 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs] has finished in [219] ms
+10-Oct-2017 14:08:53.789 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples]
+10-Oct-2017 14:08:54.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples] has finished in [265] ms
+10-Oct-2017 14:08:54.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager]
+10-Oct-2017 14:08:54.086 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager] has finished in [32] ms
+10-Oct-2017 14:08:54.086 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager]
+10-Oct-2017 14:08:54.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager] has finished in [15] ms
+10-Oct-2017 14:08:54.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT]
+10-Oct-2017 14:08:54.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT] has finished in [31] ms
+10-Oct-2017 14:08:54.132 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 14:08:54.148 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 14:08:54.148 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 602 ms
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_101\jre
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\logging.properties
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\colbert\Documents\apache-tomcat-8.5.23\temp
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10-Oct-2017 14:15:35.208 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Oct-2017 14:15:35.661 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10-Oct-2017 14:15:35.755 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 14:15:35.833 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 14:15:35.833 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 14:15:35.833 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 14:15:35.833 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 907 ms
+10-Oct-2017 14:15:35.848 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Oct-2017 14:15:35.848 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Oct-2017 14:15:35.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs]
+10-Oct-2017 14:15:36.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs] has finished in [188] ms
+10-Oct-2017 14:15:36.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples]
+10-Oct-2017 14:15:36.270 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples] has finished in [218] ms
+10-Oct-2017 14:15:36.270 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager]
+10-Oct-2017 14:15:36.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager] has finished in [16] ms
+10-Oct-2017 14:15:36.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager]
+10-Oct-2017 14:15:36.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager] has finished in [16] ms
+10-Oct-2017 14:15:36.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT]
+10-Oct-2017 14:15:36.317 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT] has finished in [15] ms
+10-Oct-2017 14:15:36.317 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 14:15:36.333 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 14:15:36.333 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 494 ms
+10-Oct-2017 14:15:37.005 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\test.xml]
+10-Oct-2017 14:15:37.036 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\test.xml] has finished in [31] ms
+10-Oct-2017 14:15:37.036 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]] after start() had already been called. The second call will be ignored.
+10-Oct-2017 14:15:57.773 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml]
+10-Oct-2017 14:15:58.038 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:15:58.038 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml] has finished in [265] ms
+10-Oct-2017 14:15:58.038 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Books]] after start() had already been called. The second call will be ignored.
+10-Oct-2017 14:16:20.399 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/test]
+10-Oct-2017 14:16:49.612 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 14:16:50.112 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Books]
+10-Oct-2017 14:16:50.112 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml]
+10-Oct-2017 14:16:50.128 WARNING [http-nio-8080-exec-11] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Context/Realm} Setting property 'debug' to '99' did not find a matching property.
+10-Oct-2017 14:16:50.315 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:16:50.315 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml] has finished in [203] ms
+10-Oct-2017 14:16:53.582 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Books]
+10-Oct-2017 14:16:53.582 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml]
+10-Oct-2017 14:16:53.582 WARNING [http-nio-8080-exec-11] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Context/Realm} Setting property 'debug' to '99' did not find a matching property.
+10-Oct-2017 14:16:53.754 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:16:53.754 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml] has finished in [172] ms
+10-Oct-2017 14:18:16.788 WARNING [http-nio-8080-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 14:18:16.976 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:18:26.461 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/Books]
+10-Oct-2017 14:18:26.461 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:18:26.617 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:18:26.617 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:21:22.186 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:21:26.081 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:21:26.718 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/Books]
+10-Oct-2017 14:21:26.718 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:21:26.868 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:21:26.870 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_101\jre
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\logging.properties
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\colbert\Documents\apache-tomcat-8.5.23\temp
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10-Oct-2017 14:33:04.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Oct-2017 14:33:05.230 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10-Oct-2017 14:33:05.308 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 14:33:05.386 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 14:33:05.386 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 14:33:05.386 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 14:33:05.386 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 866 ms
+10-Oct-2017 14:33:05.402 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Oct-2017 14:33:05.402 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Oct-2017 14:33:05.418 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml]
+10-Oct-2017 14:33:05.449 WARNING [localhost-startStop-1] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Context/Realm} Setting property 'debug' to '99' did not find a matching property.
+10-Oct-2017 14:33:06.230 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:33:06.261 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml] has finished in [843] ms
+10-Oct-2017 14:33:06.261 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs]
+10-Oct-2017 14:33:06.433 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:33:06.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs] has finished in [172] ms
+10-Oct-2017 14:33:06.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples]
+10-Oct-2017 14:33:06.730 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:33:06.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples] has finished in [344] ms
+10-Oct-2017 14:33:06.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager]
+10-Oct-2017 14:33:06.980 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:33:06.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager] has finished in [203] ms
+10-Oct-2017 14:33:06.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager]
+10-Oct-2017 14:33:07.199 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:33:07.199 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager] has finished in [219] ms
+10-Oct-2017 14:33:07.199 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT]
+10-Oct-2017 14:33:07.355 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 14:33:07.355 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT] has finished in [156] ms
+10-Oct-2017 14:33:07.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 14:33:07.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 14:33:07.355 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1975 ms
+10-Oct-2017 14:34:16.478 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:34:17.088 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:34:18.884 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:34:19.384 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:35:07.500 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:35:08.031 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:39:34.813 INFO [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:39:35.360 INFO [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:39:59.470 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:39:59.923 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:39:59.938 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:40:00.392 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:41:44.503 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:41:44.972 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:42:18.269 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:42:18.847 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:42:59.410 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:42:59.864 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:44:55.058 SEVERE [http-nio-8080-exec-48] dbHelper.AddBookQuery.doAdd null
+ java.sql.SQLSyntaxErrorException: ORA-00904: "PAGES": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3694)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1354)
+	at dbHelper.AddBookQuery.doAdd(AddBookQuery.java:65)
+	at controller.Admin_AddServlet.doPost(Admin_AddServlet.java:102)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-Oct-2017 14:45:02.111 SEVERE [http-nio-8080-exec-45] dbHelper.AddBookQuery.doAdd null
+ java.sql.SQLSyntaxErrorException: ORA-00904: "PAGES": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3694)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1354)
+	at dbHelper.AddBookQuery.doAdd(AddBookQuery.java:65)
+	at controller.Admin_AddServlet.doPost(Admin_AddServlet.java:102)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-Oct-2017 14:45:25.155 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:45:25.202 WARNING [http-nio-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 14:45:25.608 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:45:29.437 INFO [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:45:29.921 INFO [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:47:53.700 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:47:53.747 WARNING [http-nio-8080-exec-58] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 14:47:54.153 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:49:40.094 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:49:40.579 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:51:35.545 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:51:36.029 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:53:05.620 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:53:06.135 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:54:17.842 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:54:18.311 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:56:48.581 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:56:49.065 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:57:19.933 INFO [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:57:20.386 INFO [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:57:29.831 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:57:30.409 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:58:22.332 INFO [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:58:22.364 WARNING [http-nio-8080-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 14:58:22.786 INFO [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 14:58:24.473 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 14:58:24.926 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 15:44:38.496 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 15:44:38.542 WARNING [http-nio-8080-exec-102] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 15:44:39.028 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 15:46:54.488 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 15:46:55.098 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 15:50:44.655 INFO [http-nio-8080-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 15:50:45.165 INFO [http-nio-8080-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 15:59:55.321 INFO [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 15:59:55.368 WARNING [http-nio-8080-exec-120] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 15:59:55.837 INFO [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 15:59:59.338 INFO [http-nio-8080-exec-122] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 15:59:59.838 INFO [http-nio-8080-exec-122] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:06:48.202 INFO [http-nio-8080-exec-137] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:476)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-Oct-2017 16:06:48.204 INFO [http-nio-8080-exec-132] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:476)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-Oct-2017 16:09:19.692 INFO [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:09:19.770 WARNING [http-nio-8080-exec-136] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 16:09:20.238 INFO [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:13:30.465 INFO [http-nio-8080-exec-142] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:13:30.996 INFO [http-nio-8080-exec-142] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:13:31.012 INFO [http-nio-8080-exec-138] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:13:31.456 INFO [http-nio-8080-exec-138] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:16:38.937 INFO [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:16:39.406 INFO [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:17:25.702 INFO [http-nio-8080-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:17:26.170 INFO [http-nio-8080-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:20:05.625 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:20:06.156 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:20:06.171 INFO [http-nio-8080-exec-152] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:20:06.640 INFO [http-nio-8080-exec-152] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:24:00.378 INFO [http-nio-8080-exec-153] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:24:00.846 INFO [http-nio-8080-exec-153] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:28:56.638 INFO [http-nio-8080-exec-165] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:28:57.091 INFO [http-nio-8080-exec-165] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:30:38.802 INFO [http-nio-8080-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:30:39.271 INFO [http-nio-8080-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:36:29.531 INFO [http-nio-8080-exec-174] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:36:30.063 INFO [http-nio-8080-exec-174] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:38:00.080 INFO [http-nio-8080-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:38:00.533 INFO [http-nio-8080-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:38:10.404 INFO [http-nio-8080-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:38:10.857 INFO [http-nio-8080-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:39:02.017 INFO [http-nio-8080-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:39:02.471 INFO [http-nio-8080-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:39:16.803 INFO [http-nio-8080-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:39:17.256 INFO [http-nio-8080-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:40:17.289 INFO [http-nio-8080-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:40:17.805 INFO [http-nio-8080-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:43:49.161 INFO [http-nio-8080-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:43:49.208 WARNING [http-nio-8080-exec-197] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 16:43:49.724 INFO [http-nio-8080-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:43:49.724 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:43:50.177 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:44:12.131 INFO [http-nio-8080-exec-205] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:44:12.587 INFO [http-nio-8080-exec-205] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:44:12.587 INFO [http-nio-8080-exec-204] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:44:13.025 INFO [http-nio-8080-exec-204] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:44:51.442 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:44:51.901 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:46:04.068 INFO [http-nio-8080-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:46:04.537 INFO [http-nio-8080-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:46:04.553 INFO [http-nio-8080-exec-211] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:46:04.990 INFO [http-nio-8080-exec-211] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:47:32.958 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:47:33.427 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:48:44.007 INFO [http-nio-8080-exec-213] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:48:44.476 INFO [http-nio-8080-exec-213] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:50:16.251 INFO [http-nio-8080-exec-199] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:50:16.751 INFO [http-nio-8080-exec-199] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:52:56.976 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:52:57.445 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:55:04.168 INFO [http-nio-8080-exec-225] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:55:04.633 INFO [http-nio-8080-exec-225] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:55:20.741 INFO [http-nio-8080-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:55:21.204 INFO [http-nio-8080-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:55:44.817 INFO [http-nio-8080-exec-215] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:55:45.311 INFO [http-nio-8080-exec-215] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:55:47.824 INFO [http-nio-8080-exec-228] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:55:48.269 INFO [http-nio-8080-exec-228] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:56:58.083 INFO [http-nio-8080-exec-228] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:56:58.540 INFO [http-nio-8080-exec-228] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:57:32.683 INFO [http-nio-8080-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:57:33.131 INFO [http-nio-8080-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:57:36.439 INFO [http-nio-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:57:36.910 INFO [http-nio-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:58:36.712 INFO [http-nio-8080-exec-248] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:58:36.942 WARNING [http-nio-8080-exec-248] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 16:58:37.350 INFO [http-nio-8080-exec-248] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:58:38.750 INFO [http-nio-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:58:39.200 INFO [http-nio-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:59:21.760 INFO [http-nio-8080-exec-255] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:59:21.792 WARNING [http-nio-8080-exec-255] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 16:59:22.234 INFO [http-nio-8080-exec-255] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 16:59:29.128 INFO [http-nio-8080-exec-254] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 16:59:29.559 INFO [http-nio-8080-exec-254] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 17:00:01.936 INFO [http-nio-8080-exec-261] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 17:00:01.970 WARNING [http-nio-8080-exec-261] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 17:00:02.363 INFO [http-nio-8080-exec-261] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 17:00:07.928 INFO [http-nio-8080-exec-264] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 17:00:08.369 INFO [http-nio-8080-exec-264] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 17:03:11.412 INFO [http-nio-8080-exec-272] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 17:03:11.459 WARNING [http-nio-8080-exec-272] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 17:03:11.850 INFO [http-nio-8080-exec-272] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 17:03:29.312 INFO [http-nio-8080-exec-277] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 17:03:29.765 INFO [http-nio-8080-exec-277] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 17:03:35.131 INFO [http-nio-8080-exec-279] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 17:03:35.568 INFO [http-nio-8080-exec-279] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 17:04:07.644 INFO [http-nio-8080-exec-283] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 17:04:07.675 WARNING [http-nio-8080-exec-283] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 17:04:08.097 INFO [http-nio-8080-exec-283] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 17:04:13.247 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Oct-2017 17:04:13.247 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 17:04:13.325 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 17:04:13.388 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Oct-2017 17:04:13.560 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 17:04:13.560 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 17:04:13.560 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 17:04:13.560 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_101\jre
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\logging.properties
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\colbert\Documents\apache-tomcat-8.5.23
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\colbert\Documents\apache-tomcat-8.5.23\temp
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10-Oct-2017 17:25:59.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Oct-2017 17:25:59.947 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10-Oct-2017 17:26:00.072 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 17:26:00.150 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 17:26:00.150 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 17:26:00.150 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Oct-2017 17:26:00.165 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1874 ms
+10-Oct-2017 17:26:00.197 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Oct-2017 17:26:00.197 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Oct-2017 17:26:00.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml]
+10-Oct-2017 17:26:00.259 WARNING [localhost-startStop-1] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Context/Realm} Setting property 'debug' to '99' did not find a matching property.
+10-Oct-2017 17:26:01.462 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 17:26:01.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\colbert\Documents\apache-tomcat-8.5.23\conf\Catalina\localhost\Books.xml] has finished in [1,297] ms
+10-Oct-2017 17:26:01.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs]
+10-Oct-2017 17:26:01.697 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 17:26:01.697 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\docs] has finished in [188] ms
+10-Oct-2017 17:26:01.697 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples]
+10-Oct-2017 17:26:02.869 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 17:26:02.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\examples] has finished in [1,218] ms
+10-Oct-2017 17:26:02.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager]
+10-Oct-2017 17:26:03.103 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 17:26:03.119 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\host-manager] has finished in [204] ms
+10-Oct-2017 17:26:03.119 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager]
+10-Oct-2017 17:26:03.337 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 17:26:03.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\manager] has finished in [218] ms
+10-Oct-2017 17:26:03.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT]
+10-Oct-2017 17:26:03.509 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2017 17:26:03.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\colbert\Documents\apache-tomcat-8.5.23\webapps\ROOT] has finished in [172] ms
+10-Oct-2017 17:26:03.525 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Oct-2017 17:26:03.525 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Oct-2017 17:26:03.525 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3369 ms
+10-Oct-2017 17:26:04.197 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 17:26:04.790 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 19:05:53.533 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 19:05:53.564 WARNING [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Books] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Oct-2017 19:05:54.220 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 19:05:59.299 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 19:05:59.783 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 19:07:44.440 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 19:07:44.940 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 19:08:22.551 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 19:08:23.051 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 19:09:17.462 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 19:09:17.915 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 19:09:31.275 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 19:09:31.744 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed
+10-Oct-2017 19:09:37.041 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] has started
+10-Oct-2017 19:09:37.478 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Books] is completed

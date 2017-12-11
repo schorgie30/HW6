@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="C:/Users/colbert/Documents/Netbeans_projects/Books/build/web" path="/Books">
+  <Realm className="org.apache.catalina.realm.JDBCRealm" connectionName="mcolbert" connectionPassword="Friday29" connectionURL="jdbc:oracle:thin:@biz-delphi.cloudapp.net:1521:Delphi" debug="99" driverName="oracle.jdbc.OracleDriver" roleNameCol="Rolename" userCredCol="Passwd" userNameCol="Email" userRoleTable="UsersInRoles" userTable="SiteUsers"/>
+</Context>

@@ -1,0 +1,2 @@
+12-Oct-2017 08:56:14.007 INFO [http-nio-8080-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Oct-2017 08:56:14.022 INFO [http-nio-8080-exec-98] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Books'

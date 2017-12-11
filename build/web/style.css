@@ -1,0 +1,82 @@
+
+body {
+    background-color: #D2B48C;
+}
+update td (border: none; height: 25px; padding:10px; font-weight: bold;)
+
+
+tr, td {
+    color: white;
+}
+
+th{
+    background-color: #FFFF99;
+    color: #696969;
+    height: 40px;
+}
+
+table {
+    border: 5px solid white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+/*    background-color: #F08080;*/
+    border: 1px solid white;
+    text-align: center;
+    height: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #F08080;
+}
+
+tr:nth-child(odd) {
+    background-color:lightsalmon; 
+}
+
+tr:hover {
+    background-color: #CCCCCC;
+}
+
+/*a:link {
+    text-decoration: none;
+}*/
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    background-color: #F08080;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+#center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
