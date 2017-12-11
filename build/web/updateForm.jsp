@@ -1,7 +1,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import = "model.Movies"%>
-<% Movies movie = (Movies) request.getAttribute("movies"); %>
+<% Movies movie = (Movies) request.getAttribute("movie"); %>
 
 
 
