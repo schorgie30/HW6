@@ -20,7 +20,7 @@
             <table class="update">
                 <tr>
                     <td class = "right">Movie ID:</td>
-                    <td><input type="text" name="movieID" value="<%= movie.getMovieID() %>" /></td>
+                    <td><input type="text" name="movieID" value="<%= movie.getMovieID() %>" readonly /></td>
                 </tr>
                 
                 <tr>

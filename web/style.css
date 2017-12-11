@@ -4,6 +4,7 @@ body {
 }
 update td (border: none; height: 25px; padding:10px; font-weight: bold;)
 
+input[readonly] {background-color:gray;}
 
 tr, td {
     color: white;
